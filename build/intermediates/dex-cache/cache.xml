@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/felix/Documents/CIS33A/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/felix/Documents/CIS33A/app/build/intermediates/pre-dexed/debug/classes-c6366236503a0b65d0e8478e428b90dac150b684.jar" />
+    </item>
+    <item
         jar="/home/felix/Downloads/CIS53HW2-03495/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -16,6 +23,13 @@
         <dex dex="/home/felix/Downloads/CIS53HW2-03495/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-f1d5380753c44309bd3da9ec28d3d7a74db97570.jar" />
     </item>
     <item
+        jar="/home/felix/Documents/CIS33A/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/felix/Documents/CIS33A/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-e915b04dee994660d47fbd561963de52b507b354.jar" />
+    </item>
+    <item
         jar="/home/felix/Downloads/CIS53HW2-03495/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -28,6 +42,13 @@
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
         <dex dex="/home/felix/Downloads/CIS53HW2-03495/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-dd35c3fd4e8db4c7d2460f98d8fa36978c3aac1e.jar" />
+    </item>
+    <item
+        jar="/home/felix/Documents/CIS33A/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/felix/Documents/CIS33A/app/build/intermediates/pre-dexed/debug/classes-45e66697c6bb7208fcc5bac0cb341911dd00775c.jar" />
     </item>
 
 </items>

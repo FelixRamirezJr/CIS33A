@@ -25,6 +25,7 @@ public class TestDb extends AndroidTestCase
     static final String TEST_DATE = "20141205";
 
     public void testCreateDb() throws Throwable {
+        Log.d(LOG_TAG, "HMMMM ThIS IS CREATING THE DATABASE");
         mContext.deleteDatabase(WeatherDbHelper.DATABASE_NAME);
         SQLiteDatabase db = new WeatherDbHelper(
                 this.mContext).getWritableDatabase();
@@ -45,7 +46,15 @@ public class TestDb extends AndroidTestCase
         long locationRowId;
         locationRowId = db.insert(LocationEntry.TABLE_NAME, null, testValues);
 
+        Log.d(LOG_TAG,"This is the size of the testValues" + testValues.size());
+        Log.d(LOG_TAG, "THIS IS JUST SOME RANDOM MESSAGE TO SEE WHERE IT COMES FROM ");
+
         // Verify we got a row back.
+        Log.d("MyApp","I AM CHECKING IF I AM GETTING SOMETHING HERE OR WTF...");
+
+        Log.d("MyApp","This should be the Size of the Data" + testValues.size());
+        Log.d("MyApp","This is the locationRowID" + locationRowId);
+
         assertTrue(locationRowId != -1);
         Log.d(LOG_TAG, "New row id: " + locationRowId);
 
