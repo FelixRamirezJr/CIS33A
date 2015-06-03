@@ -24,6 +24,10 @@ public class TestDb extends AndroidTestCase
     static final String TEST_LOCATION = "99705";
     static final String TEST_DATE = "20141205";
 
+    // These Variables are for The Insertion Case.
+    static final String INSERT_LOCATION = "99705"; // Going to the Same Location.
+    static final String INSERT_DATE = "20151306";
+
     public void testCreateDb() throws Throwable {
         Log.d(LOG_TAG, "HMMMM ThIS IS CREATING THE DATABASE");
         mContext.deleteDatabase(WeatherDbHelper.DATABASE_NAME);
@@ -121,6 +125,15 @@ public class TestDb extends AndroidTestCase
         testValues.put(LocationEntry.COLUMN_COORD_LONG, -147.353);
 
         return testValues;
+    }
+
+    static ContentValues  createValuesForInsertaion ()
+    {
+        ContentValues insertValues = new ContentValues();
+        insertValues.put(LocationEntry.COLUMN_LOCATION_SETTING,INSERT_LOCATION); // Placing The insert Location
+
+        return insertValues;
+
     }
 
     static void validateCursor(Cursor valueCursor, ContentValues expectedValues) {
